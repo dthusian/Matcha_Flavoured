@@ -20,6 +20,7 @@ Changes:
 Bug fixes:
 - Delegate the adding-back-XP part of the anvil changes to a different Fabric mod, as the current implementation is scuffed.
   - Removing XP after 15s will confuse players that need to go AFK having the anvil table open, or spend some time thinking about what to name their tool.
+- Fix a bug where picking up multiple water bottles in 1 tick causes some to be lost. 
 - Fix the overridden `minecraft:day` timeline, fixing sleep issues.
 
 Yeets:
