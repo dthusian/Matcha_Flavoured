@@ -3,15 +3,13 @@
 	"criteria": {
 		"obtained_heart_container": {
 			"conditions": {
-				"items": [
-					{
-						"components": {
-							"minecraft:item_model": "minecraft:heart_container"
-						}
+				"item": {
+					"components": {
+						"minecraft:item_model": "minecraft:heart_container"
 					}
-				]
+				}
 			},
-			"trigger": "minecraft:inventory_changed"
+			"trigger": "minecraft:consume_item"
 		}
 	},
 	"requirements": [
