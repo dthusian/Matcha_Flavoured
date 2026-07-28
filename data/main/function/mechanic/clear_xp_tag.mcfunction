@@ -1,1 +1,2 @@
-tag @p remove ExcludeFromXPRemoval
+# Delegated to external mod
+#tag @p remove ExcludeFromXPRemoval
