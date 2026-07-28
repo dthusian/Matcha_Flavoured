@@ -13,7 +13,7 @@ Changes:
   - This is generally a good feature, but it makes villages annoying to inhabit even after excavating all the blocks because there is no way to remove a structure bounding box in survival.
 - Make crystal hearts manually consumed instead of consumed on pickup
   - On a multiplayer server, it would be nice to be able to save a crystal heart for a friend instead of being forced to eat it immediately.
-- (WIP) Make crystal hearts drop on death
+- Make crystal hearts drop on death
   - On my multiplayer servers, we often kill each other for fun. Losing a heart permanently for that would suck.
   - Dropping the crystal heart also creates a corpse-run mission that isn't absolutely critical to do immediately (which would be the case for gravestones), but still provides a decent reward. 
 - (WIP) Dying at 10 maximum hearts respawns at 5/10 hearts
