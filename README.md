@@ -4,7 +4,7 @@ Derivative of Klei_Wright's [Matcha Flavoured](https://modrinth.com/datapack/mat
 
 Changes:
 - Delegate the adding-back-XP part of the anvil changes to a different Fabric mod, as the current implementation is scuffed.
-- (WIP) Make alloy names consistent, and rename some of them
+- Make alloy names consistent, and rename some of them
   - Hepatizon → Bronze
   - Palatinate → Shakudo
 - (WIP) Make crystal hearts manually consumed instead of consumed on pickup

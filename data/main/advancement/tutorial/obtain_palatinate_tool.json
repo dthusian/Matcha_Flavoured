@@ -76,7 +76,7 @@
 	},
 	"display": {
 		"description": {
-			"text": "Craft a piece of Palatinate Equipment"
+			"text": "Craft a piece of Shakudo Equipment"
 		},
 		"icon": {
 			"components": {
@@ -86,7 +86,7 @@
 			"id": "minecraft:wooden_axe"	
 		},
 		"title": {
-			"text": "Palatinate Perfection"
+			"text": "Shakudo Superiority"
 		},
 		"frame": "goal",
 		"hidden": false
