@@ -10,7 +10,8 @@ execute as @s[type=minecraft:creeper] run attribute @s minecraft:max_health base
 execute as @s[type=minecraft:cave_spider] run attribute @s minecraft:max_health base set 4
 execute as @s[type=minecraft:cave_spider] run attribute @s minecraft:movement_speed base set 0.4
 #Fast Zombies (Only regular zombies)
-execute as @s[type=minecraft:zombie,nbt={IsBaby:0b}] run attribute @s minecraft:movement_speed base set 0.4
+execute as @s[type=minecraft:zombie,nbt={IsBaby:0b}] run attribute @s minecraft:movement_speed base set 0.3
+execute as @s[type=minecraft:zombie,nbt={IsBaby:0b}] run attribute @s minecraft:knockback_resistance base set 0.25
 execute as @s[type=#minecraft:zombies,nbt={IsBaby:0b}] run attribute @s minecraft:step_height base set 1
 #Strong and Slow Husks
 execute as @s[type=minecraft:husk,nbt={IsBaby:0b}] run attribute @s minecraft:movement_speed base set 0.28
