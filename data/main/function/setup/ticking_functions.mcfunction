@@ -1,4 +1,3 @@
-function main:mechanic/sleep
 function main:mechanic/manage_hunger
 function main:mechanic/water_bottle_stacking
 function main:mechanic/warding_stone
