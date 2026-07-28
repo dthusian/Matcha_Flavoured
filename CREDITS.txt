@@ -1,3 +1,7 @@
+This repository is a fork of Klei_Wright's Matcha Flavoured Datapack, licensed uner CC-BY-NC-SA 4.0.
+
+Original CREDITS.txt (written by Klei) below:
+
 PROPER CREDITS -----------------------------------------------------------------------------------------------
 
 "Golden" music disc composed by Ciren. Added in memory of my dog, Dakota, who died in 2026 a few days after the summer solstice
