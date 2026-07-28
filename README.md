@@ -9,3 +9,8 @@ Changes:
   - Palatinate → Shakudo
 - (WIP) Make crystal hearts manually consumed instead of consumed on pickup
 - (WIP) Make crystal hearts drop on death
+- (WIP) Dying at 10 maximum hearts respawns at 5/10 hearts
+- (WIP) Instead of fast zombies, slow and reinforcement-spawning zombies
+
+Wishlist:
+- Add more gemstones
