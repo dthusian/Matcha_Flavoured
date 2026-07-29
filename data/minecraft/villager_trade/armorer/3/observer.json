@@ -1,7 +1,8 @@
 {
 	"wants": {
 		"id": "minecraft:emerald",
-		"count": 1
+		"count": 1,
+		"components": { "minecraft:item_model": "gold_coin" }
 	},
 	"gives": {
 		"id": "minecraft:observer",

@@ -32,8 +32,9 @@
 	"max_uses": 999,
 	"reputation_discount": 0,
 	"wants": {
+		"id": "minecraft:emerald",
 		"count": 1,
-		"id": "minecraft:emerald"
+		"components": { "minecraft:item_model": "gold_coin" }
 	},
 	"xp": 15
 }

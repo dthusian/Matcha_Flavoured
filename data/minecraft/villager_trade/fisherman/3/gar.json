@@ -1,7 +1,8 @@
 {
 	"gives": {
 		"id": "minecraft:emerald",
-		"count": 1
+		"count": 1,
+		"components": { "minecraft:item_model": "gold_coin" }
 	},
 	"given_item_modifiers": [],
 	"max_uses": 999,

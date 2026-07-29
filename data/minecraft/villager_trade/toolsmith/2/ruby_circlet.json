@@ -1,7 +1,8 @@
 {
 	"wants": {
 		"id": "minecraft:emerald",
-		"count": 4
+		"count": 4,
+		"components": { "minecraft:item_model": "gold_coin" }
 	},
 	"additional_wants": {
 		"id": "minecraft:fermented_spider_eye",
