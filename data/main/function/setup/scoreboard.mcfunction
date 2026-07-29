@@ -17,7 +17,6 @@ scoreboard objectives add HealthPoints health
 scoreboard objectives add deaths deathCount
 scoreboard objectives add Hearts dummy
 scoreboard players add @a Hearts 0
-execute at @a[scores={Hearts=..20}] run scoreboard players set @p Hearts 20
 
 scoreboard objectives add divinity dummy
 scoreboard players set 0 divinity 0
@@ -35,6 +34,8 @@ scoreboard objectives add boating minecraft.custom:minecraft.boat_one_cm
 
 scoreboard objectives add anvil_interaction minecraft.custom:minecraft.interact_with_anvil
 scoreboard players set 1 anvil_interaction 1
+
+scoreboard objectives add time_since_respawn minecraft.custom:minecraft.time_since_death
 
 scoreboard objectives add gamerule_safe_surface dummy
 

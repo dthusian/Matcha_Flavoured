@@ -12,7 +12,7 @@ Changes:
 - Make crystal hearts drop on death
   - On my multiplayer servers, we often kill each other for fun. Losing a heart permanently for that would suck.
   - Dropping the crystal heart also creates a corpse-run mission that isn't absolutely critical to do immediately (which would be the case for gravestones), but still provides a decent reward.
-- (TOOO) Dying at 10 maximum hearts respawns at 5/10 hearts
+- Dying at 10 maximum hearts respawns at 5/10 hearts
   - Currently, dying at 10 maximum hearts is effectively the same as vanilla Minecraft with keep_inventory enabled, which incurs no penalty. This adds a small cost to that.
 - Instead of fast zombies, slow and reinforcement-spawning zombies
   - I didn't like the faster zombies. Instead, I changed zombies to have some knockback resistance and a much higher chance of spawning reinforcements

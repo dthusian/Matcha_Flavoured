@@ -1,3 +1,4 @@
+# heart container respawn 
 execute at @a[scores={deaths=1..,Hearts=22..}] run summon item ~ ~ ~ {\
   Age:-32768s,\
   NoGravity:1b,\
@@ -21,6 +22,10 @@ execute at @a[scores={deaths=1..,Hearts=22..}] run summon item ~ ~ ~ {\
   },\
   "Glowing":1b,\
 }
+execute as @a[scores={deaths=1..,Hearts=20}] run tag @s add RespawnLowHealth
 execute at @a[scores={deaths=1..,Hearts=22..}] run scoreboard players remove @p Hearts 2
 execute at @a[scores={deaths=1..,Hearts=20..}] run function main:mechanic/set_max_hp
 execute at @a[scores={deaths=1..}] run scoreboard players set @p deaths 0
+execute as @a[scores={time_since_respawn=0},tag=RespawnLowHealth] run attribute @s minecraft:max_health base set 10
+execute as @a[scores={time_since_respawn=1},tag=RespawnLowHealth] run attribute @s minecraft:max_health base set 20
+execute as @a[scores={time_since_respawn=1},tag=RespawnLowHealth] run tag @s remove RespawnLowHealth
