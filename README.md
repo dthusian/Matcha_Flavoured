@@ -16,6 +16,17 @@ Changes:
   - Currently, dying at 10 maximum hearts is effectively the same as vanilla Minecraft with keep_inventory enabled, which incurs no penalty. This adds a small cost to that.
 - Instead of fast zombies, slow and reinforcement-spawning zombies
   - I didn't like the faster zombies. Instead, I changed zombies to have some knockback resistance and a much higher chance of spawning reinforcements
+- (WIP) Add better currency denominations.
+  - Obol has been replaced with Gold coin.
+  - Added silver and copper coins.
+  - 24 silver coins = 1 gold coin
+  - 24 copper coins = 1 silver coin
+  - Fishing trades have been updated, mostly in line with their original values
+    - 1-star fish: 1 silver
+    - 2-star fish: 2 silver
+    - 3-star fish: 6 silver
+    - 4-star fish: 1 gold
+  - Weaponsmith renamed to exchanger and has trades to convert between the coins.
 
 Bug fixes:
 - Delegate the adding-back-XP part of the anvil changes to a different Fabric mod, as the current implementation is scuffed.
@@ -32,6 +43,5 @@ Yeets:
 
 Wishlist:
 - Add back vanilla village generation but without the villagers
-- More currency denominations
 - Add more gemstones
 - Move everything out of the `minecraft` namespace if not needed
