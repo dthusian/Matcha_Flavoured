@@ -1,7 +1,13 @@
 {
 	"gives": {
-		"id": "minecraft:emerald",
-		"count": 1
+		"id": "minecraft:fermented_spider_eye",
+		"components": {
+			"minecraft:item_model": "minecraft:silver_coin",
+			"minecraft:item_name": {
+				"translate": "item.kleispack.silver_coin"
+			}
+		},
+		"count": 2
 	},
 	"given_item_modifiers": [],
 	"max_uses": 999,
@@ -19,7 +25,7 @@
 				}
 			]
 		},
-		"count": 12,
+		"count": 1,
 		"id": "minecraft:cod"
 	},
 	"reputation_discount": 0,

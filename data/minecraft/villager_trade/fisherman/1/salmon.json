@@ -1,6 +1,12 @@
 {
 	"gives": {
-		"id": "minecraft:emerald",
+		"id": "minecraft:fermented_spider_eye",
+		"components": {
+			"minecraft:item_model": "minecraft:silver_coin",
+			"minecraft:item_name": {
+				"translate": "item.kleispack.silver_coin"
+			}
+		},
 		"count": 1
 	},
 	"given_item_modifiers": [],
@@ -15,7 +21,7 @@
 				}
 			]
 		},
-		"count": 23,
+		"count": 1,
 		"id": "minecraft:salmon"
 	},
 	"reputation_discount": 0,
