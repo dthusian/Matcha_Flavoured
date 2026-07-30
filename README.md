@@ -16,7 +16,7 @@ Changes:
   - Currently, dying at 10 maximum hearts is effectively the same as vanilla Minecraft with keep_inventory enabled, which incurs no penalty. This adds a small cost to that.
 - Instead of fast zombies, slow and reinforcement-spawning zombies
   - I didn't like the faster zombies. Instead, I changed zombies to have some knockback resistance and a much higher chance of spawning reinforcements
-- (WIP) Add better currency denominations.
+- Add better currency denominations.
   - Obol has been replaced with Gold coin.
   - Added silver and copper coins.
   - 24 silver coins = 1 gold coin
@@ -38,7 +38,7 @@ Yeets:
 - Removed eerie sounds from villages
   - This is generally a good feature, but it makes villages annoying to inhabit even after excavating all the blocks because there is no way to remove a structure bounding box in survival.
 - Removed the day-length extender. Day is back to being 24000 ticks.
-- (WIP) Instead of fast zombies, slow and reinforcement-spawning zombies
+- Instead of fast zombies, slow and reinforcement-spawning zombies
   - I didn't like the faster zombies. Instead, I changed zombies to have some knockback resistance, and kept only some of their speed boost.
 
 Wishlist:

@@ -138,6 +138,7 @@
   "entity.minecraft.villager.toolsmith": "Jeweler",
   "entity.minecraft.villager.butcher": "Cook",
   "entity.minecraft.villager.librarian": "Mouthpiece",
+  "entity.minecraft.villager.weaponsmith": "Exchanger",
   "filled_map.desert_pyramid": "Desert Temple Explorer Map",
   "filled_map.trail_ruin": "Trail Ruins Explorer Map",
   "filled_map.ancient_city": "Ancient City Explorer Map",
