@@ -1,5 +1,8 @@
 {
   "values": [
-    "minecraft:weaponsmith/1/iou"
+    "minecraft:weaponsmith/1/copper2silver",
+    "minecraft:weaponsmith/1/gold2silver",
+    "minecraft:weaponsmith/1/silver2copper",
+    "minecraft:weaponsmith/1/silver2gold"
   ]
 }
