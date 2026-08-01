@@ -64,6 +64,24 @@ Recipes have also been added to alloy recycling of tools. Iron, copper, gold, an
   - In the material table, composition and applied only apply to alloys.
 - Certain materials have "intrinsics" which are basically enchantments or extra effects applied to items crafted out of the material.
 - (Klei) Bronze ingots are instead called Hepatizon, and Shakudo tools are instead called Palatinate.
+- New enchantments
+  - Anemos (sword, mace): Attacks shoot wind charges
+  - Bloodrage (axe): When held and below 5 hearts, grants strength 1 and resistance 1
+  - Cleanse (armor): Removes effects depending on which piece:
+    - Helmet: Blindness, darkness
+    - Chestplate: Poison, wither
+    - Leggings: Slowness
+    - Boots: Levitation
+  - Divinity (armor, tools): Internal name for adamant max HP boost, see intrinsics reference note 2
+  - Traversal (boots): TODO: the enchantment JSON is long and I'm feeling lazy right now
+  - Warding: TODO
+  - Zephyr: TODO
+- New enchantments only accessible being pre-applied onto specific items
+  - Conduit power (opal earrings): Applies conduit power
+  - Fireproof (ruby circlet): Applies fire resistance
+  - Regen (amber earrings): Applies regeneration
+  - Haste (topaz circlet): Applies haste
+  - Slaughter (butcher's knife): +40 damage against livestock animals, inflict slowness to nearby livestock animals
 
 ### Alloy Reference
 

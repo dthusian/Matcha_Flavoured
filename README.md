@@ -32,7 +32,8 @@ Bug fixes:
 - Delegate the adding-back-XP part of the anvil changes to a different Fabric mod, as the current implementation is scuffed.
   - Removing XP after 15s will confuse players that need to go AFK having the anvil table open, or spend some time thinking about what to name their tool.
 - Fix a bug where picking up multiple water bottles in 1 tick causes some to be lost. 
-- Fix the overridden `minecraft:day` timeline, fixing sleep issues.
+- Fix the overridden `minecraft:day` timeline to include time points for day/night/noon/etc.
+  - I just realized this change was made not to re-fix sleeping, but to allow sleeping to pass time at any time.
 - Fix translation keys for certain food items
 - Remove crafting-table recipes for Paneer Makhani and Green Curry
   - They have the exact same name but different effects compared to the furnace versions
