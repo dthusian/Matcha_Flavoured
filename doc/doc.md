@@ -20,17 +20,24 @@ This guide will have spoilers. If you don't like that, you can try using the in-
 
 Early-game progression has been changed substantially. Here's a brief guide.
 
-(TODO: add recipe images)
 - Get wood
-- Craft a wooden hoe and break grass with it to collect grass.
+- Craft a wooden hoe (vanilla recipe) and break grass with it to collect grass.
 - Crafting kindling
+  ![2 stick + 2 log](img1.png)
 - Either craft tinder, or find gravel and craft a firestarter with flint.
+  ![2 stick + short grass](img2a.png)
+  ![2 flint](img2b.png)
 - Make a campfire by placing kindling and lighting it with tinder or a firestarter.
-- Dry short grass using the campfire into.
-- Craft short dry grass into packed mud and mud bricks.
+- Dry short grass using the campfire.
+- Craft short dry grass into tall dry grass.
+  ![2 short dry grass](img3.png)
+- Craft tall dry grass into packed mud and mud bricks.
+  ![tall dry grass + dirt](img4.png)
 - Craft a mud kiln.
+  ![tall dry grass + dirt](img5.png)
 - Use your mud kiln to smelt copper ore, or smelt cobblestone into limestone and smooth stone.
 - Use smooth stone and stone bricks to craft a blast furnace, which can smelt the remaining metals.
+  ![tall dry grass + dirt](img6.png)
 
 ## Furnaces
 
@@ -43,20 +50,22 @@ Additionally, recipes have been added for the blast furnace:
 - Cobblestone → gravel
 - Gravel → sand
 
+Recipes have also been added to alloy recycling of tools. Iron, copper, gold, and diamond tools can be smelted into 1 ingot of their corresponding material.
+
 ## Mining
 
 - Lapis ore above deepslate has been replaced with quartz ore.
 - Redstone ore has been replaced with sulfur ore. Sulfur is equivalent to gunpowder.
   - Above deepslate, it becomes sulfurous quartz ore which drops quartz and maybe sulfur.
 - Emerald ore has been replaced with silver ore.
-- Blocks of raw ore can be smelted directly.
+- Blocks of raw ore can be smelted directly. 
 
 ## Tools and Enchanting
 
 - Experience points have been removed. Using the anvil is free.
   - There is also no limit on how many times a tool can be repaired.
 - Enchanting tables have been removed.
-- Enchanted books are renamed to hell-bound books and are craftable.
+- "Blessings", which are an enchanted book with a set of enchantments, can be crafted. A reference is located below.
 - You can make armor out of either tattered leather or sturdy leather. These are considered different materials.
 - New alloys have been added. Like netherite, these are applied using the smithing table and an upgrade template.
   - In the material table, composition and applied only apply to alloys.
@@ -134,48 +143,92 @@ Notes:
   - For each level of divinity, you obtain 2 bonus hearts.
   - Bonus hearts behave like hearts from absorption and cannot be restored with food or effects. Instead, they are automatically restored on a global 30s timer, or 15s if you have level 5 (full adamant armor and holding an adamant tool). 
 
-### Enchantments Reference
+### Blessings Reference
 
-TODO: enchanted book reference.
+- All recipes require a hell-bound book.
+
+| Name                   | Recipe                                                                | Enchantments                                             |
+| ---------------------- | --------------------------------------------------------------------- | -------------------------------------------------------- |
+| Elegy of Arachnae      | 4 spider eye                                                          | Bane of Arthropods 5                                     |
+| Prayer of The God-King | 3 silver + 4 estus ash + iron ingot                                   | Channeling, Smite 3                                      |
+| Prayer of Talos        | 7 block of iron + steel                                               | Density 2, Knockback 2, Punch 2                          |
+| Prayer of Yamn         | 4 nautilus shell                                                      | Riptide 1, Respiration 2, Aqua Affinity, Depth Strider 2 |
+| Prayer of Daedalus     | diamond pickaxe + diamond axe + diamond + 4 estus ash + divine favour | Efficiency 3, Unbreaking 3                               |
+| Elegy of Icarus        | 4 wind charge + wax + 3 feather                                       | Feather falling 2                                        |
+| Prayer of Yama         | 4 gold ingot + 4 fire charge                                          | Fire Aspect 1, Flame, Fire Protection 3                  |
+| Prayer of Demeter      | 4 golden apple + golden hoe + 3 blue ice                              | Frost Walker 2, Frost Protection 2                       |
+| Prayer of Paris        | 7 spectral arrow + stable void                                        | Infinity                                                 |
+| Prayer of Ares         | iron sword or spear + red dye + shield + iron helmet                  | Lunge 2, Breach 2                                        |
+| Prayer of Glaucus      | azure bluet + 3 nautilus shell                                        | Luck of the Sea 3, Lure 3, Loyalty 1                     |
+| Prayer of Lu Ban       | 6 diamond + diamond block + divine favour                             | Mending                                                  |
+| Prayer of Apollo       | disc fragment + 4 spectral arrow + 3 gold ingot                       | Impaling 3, Piercing 2                                   |
+| Prayer of Artemis      | silver + 4 spectral arrow + 3 porkchop                                | Power 2, Multishot                                       |
+| Prayer of Will         | 4 ender pearl                                                         | Reach 1                                                  |
+| Prayer of Eros         | 4 shakudo + 4 estus ash                                               | Silk Touch                                               |
+| Prayer of Cronus       | 3 echo shard + 4 sculk + iron hoe                                     | Soul Speed 2, Swift Sneak 2                              |
+| Prayer of St. Clement  | 2 (Klei) obol (dthusian) gold coin + 2 wool + leather boots           | Traversal 3                                              |
+| Prayer of Prometheus   | 4 estus ash + divine fragment + 3 diamond                             | Unbreaking 2                                             |
+| Prayer of Man          | 4 nazar + silver + 3 lapis lazuli                                     | Smite 2, Warding                                         |
+| Prayer of Aeolus       | 7 wind charge + electrum                                              | Wind Burst 3, Anemos                                     |
+| Elegy of Hyacinthus    | 1 hyacinth + 4 wind charge + 3 feather                                | Zephyr                                                   |
 
 ## Food and Cooking
 
 The brewing system has been removed since it isn't currently possible to change brewing recipes with datapacks. Instead, potion effects can be obtained from the cooking system.
-- Raw food cannot be eaten. They can be charred in a mud kiln if you lack other cooking options.
+- Most raw food does not restore health when eaten. They can be charred in a mud kiln if you lack other cooking options.
 - Food can be cooked normally on a campfire or oven.
 
 Notation: Lists duration of each base effect. + indicates an additional level.
 
-| Food             | Base Effects             | Raw       | Cooked    | Preserved  | Prepared Dish            | Prepared |
-| ---------------- | ------------------------ | --------- | --------- | ---------- | ------------------------ | -------- |
-| Apple            | Regen                    | -         | 0:10      | 1:00       | Apple Empanada           | 3:00     |
-| Golden Apple     | Absorption, Regen        | 2:00/0:30 | 2:00/1:00 | 2:00+/0:20 | Golden Pie               | note 1   |
-| Pumpkin          | Resistance               | -         | 0:10      | 3:00       | Pumpkin Empanada         | 8:00     |
-| Crimson Mushroom | Weakness                 | -         | 0:30      | 1:00+      | Crimson Stroganoff       | 5:00     |
-| Toadstool        | Poison                   | -         | 0:30      | 1:00+      | Toadstool Stroganoff     | 5:00     |
-| Warped Fungus    | Invisibility             | -         | 0:30      | 5:00       | Warped Stroganoff        | 10:00    |
-| Cocoa Beans      | Haste                    | -         | 0:30      | -          | Chocolate Chip Cookie    | 5:00     |
-| Pufferfish       | Conduit Power            | -         | 0:30      | -          | ?                        | ?        |
-| Kelp             | Gills                    | -         | 0:10      | -          | ?                        | ?        |
-| Glow Berry       | Aura                     | -         | 0:03      | 0:30       | Glow Berry Crumble       | 1:00     |
-| Carrot           | Night Vision             | -         | 0:10      | 5:00       | Carrot Cupcake           | 10:00    |
-| Golden Carrot    | Night Vision             | 0:30      | 1:00      | 10:00      | Gold Carrot Cupcake      | 20:00    |
-| Melon            | Fire Resistance          | -         | 0:10      | -          | Melon Sorbet             | 10:00    |
-| Tomato           | Strength                 | -         | 0:10      | 5:00       | ?                        | ?        |
-| Honey            | Speed, Cleanse Maleffect | -         | 0:30      | -          | Honied French Toast      | 3:00+    |
-| Chorus Fruit     | Levitation III           | -         | 0:03      | -          | Chorus Mochi             | note 2   |
-| Sweet Berry      | Health Boost             | -         | 0:10      | 3:00       | Sweet Berry Toast/Danish | 8:00     |
+| Food             | Base Effects             | Raw       | Cooked    | Preserved              |            | Prepared Dish         |        | Prepared Dish 2    |             |
+| ---------------- | ------------------------ | --------- | --------- | ---------------------- | ---------- | --------------------- | ------ | ------------------ | ----------- |
+| Apple            | Regen                    | -         | 0:10      | Canned Apples          | 1:00       | Apple Empanada        | 3:00   |                    |             |
+| Golden Apple     | Absorption, Regen        | 2:00/0:30 | 2:00/1:00 | Canned Golden Apples   | 2:00+/0:20 | Golden Pie            | note 1 | Gilded Empanada    | 4:00+/0:45+ |
+| Pumpkin          | Resistance               | -         | 0:10      | Pumpkin Jam            | 3:00       | Pumpkin Empanada      | 8:00   |                    |             |
+| Crimson Mushroom | Weakness                 | -         | 0:30      | Pickled Crimson Fungus | 1:00+      | Crimson Stroganoff    | 5:00   |                    |             |
+| Toadstool        | Poison                   | -         | 0:30      | Pickled Toadstools     | 1:00+      | Toadstool Stroganoff  | 5:00   |                    |             |
+| Warped Fungus    | Invisibility             | -         | 0:30      | Pickled Warped Fungus  | 5:00       | Warped Stroganoff     | 10:00  |                    |             |
+| Cocoa Beans      | Haste                    | -         | 0:30      |                        |            | Chocolate Chip Cookie | 5:00   | Brownie            | 2:30+       |
+| Pufferfish       | Conduit Power            | -         | 0:30      |                        |            | Bokguk                | 8:00   |                    |             |
+| Kelp             | Gills                    | -         | 0:10      |                        |            | Gimmari               | 8:00   |                    |             |
+| Glow Berry       | Aura                     | -         | 0:03      | Glow Berry Jam         | 0:30       | Glow Berry Crumble    | 1:00   |                    |             |
+| Carrot           | Night Vision             | -         | 0:10      | Pickled Carrots        | 5:00       | Carrot Cupcake        | 10:00  |                    |             |
+| Golden Carrot    | Night Vision             | 0:30      | 1:00      | Golden Pickled Carrots | 10:00      | Gold Carrot Cupcake   | 20:00  |                    |             |
+| Melon            | Fire Resistance          | -         | 0:10      | Rind Jam               | 5:00       | Melon Sorbet          | 10:00  |                    |             |
+| Tomato           | Strength                 | -         | 0:10      | Sundried Tomatoes      | 5:00       | Brushcetta            | 2:30+  |                    |             |
+| Honey            | Speed, Cleanse Maleffect | -         | 0:30      | Mead                   | 5:00       | Honied French Toast   | 3:00+  |                    |             |
+| Chorus Fruit     | Levitation III           | -         | 0:03      |                        | -          | Chorus Mochi          | note 2 |                    |             |
+| Sweet Berry      | Health Boost             | -         | 0:10      | Sweet Berry Jam        | 3:00       | Sweet Berry Toast     | 8:00   | Sweet Berry Danish | 8:00        |
 
 Notes:
 1. Provides Absorption II for 2:00 and Comfort II for 0:10. 
 2. Provides Levitation 30 for 0:01
 
-The following ingredients have no effects on their own:
-- Potato
-- Mushroom
-- All meats
-- Bread
-- Egg
+TODO: document recipes for these
+
+Ingredients:
+- Cheese
+- Dough
+- Flour
+
+Misc dishes:
+- Cake
+- French Toast
+- Gnocchi
+- Latke
+- Rabbit stew
+- Puerquito (Regen 0:30)
+- Pupusa
+- Ramen
+- Squid ink pasta
+- Stroganoff
+- Stuffed mushrooms
+
+Top-tier dishes:
+- Tonkotsu ramen
+- Green curry
+- Paneer makhani
+- Japanese curry
 
 ## Building
 
