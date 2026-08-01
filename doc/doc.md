@@ -65,35 +65,35 @@ Additionally, recipes have been added for the blast furnace:
 
 ### Alloy Reference
 
-| Material  | Applied on | Composition                  |
-|-----------|------------|------------------------------|
-| Bronze    | Copper     | 7 copper + 1 silver + 1 gold |
-| Shakudo   | Copper     | 7 copper + 3 gold            |
-| Electrum  | Diamond    | 4 silver + 4 gold            |
-| Steel     | Iron       | 1 iron (note 1)              |
-| Adamant   | Diamond    | 4 adamant scrap + 4 gold     |
+| Material | Applied on | Composition                  |
+| -------- | ---------- | ---------------------------- |
+| Bronze   | Copper     | 7 copper + 1 silver + 1 gold |
+| Shakudo  | Copper     | 7 copper + 3 gold            |
+| Electrum | Diamond    | 4 silver + 4 gold            |
+| Steel    | Iron       | 1 iron (note 1)              |
+| Adamant  | Diamond    | 4 adamant scrap + 4 gold     |
 
 Notes:
 1. Steel is made by blasting iron. It takes 160 seconds to perform this recipe, instead of the normal 10 seconds. This is equivalent to the duration of 2 pieces of coal.
 
 ### Stats Reference
 
-| Material | Tool Speed      | Tool Durability    | Sword Damage | Sword Speed | Axe Damage | Axe Speed |
-|----------|-----------------|--------------------|--------------|-------------|------------|-----------|
-| Wood     | 2 (Pick: 3)     | 200 (Pick: 600)    | 4            | 1.6         | 7          | 0.8       |
-| Copper   | 6               | 350                | 5            | 1.6         | 9          | 0.8       |
-| Iron     | 7 (Shov/hoe: 8) | 500                | 6            | 1.6         | 9          | 0.9       |
-| Steel    | 8               | 3000               | 6            | 0.9         | 9          | 0.7       |
-| Gold     | 12              | 350                | 4            | 1.6         | 7          | 1         |
-| Bronze   | 15              | 1000               | 6            | 1.9         | 9          | 1.1       |
-| Shakudo  | 9               | 1000               | 6            | 1.6         | 9          | 1         |
-| Diamond  | 9               | 2500               | 7            | 1.6         | 9          | 1         |
-| Electrum | 12              | 3000               | 7            | 1.9         | 9          | 1.2       |
-| Adamant  | 15              | 5000               | 8            | 1.6         | 10         | 1         |
+| Material | Tool Speed      | Tool Durability | Sword Damage | Sword Speed | Axe Damage | Axe Speed |
+| -------- | --------------- | --------------- | ------------ | ----------- | ---------- | --------- |
+| Wood     | 2 (Pick: 3)     | 200 (Pick: 600) | 4            | 1.6         | 7          | 0.8       |
+| Copper   | 6               | 350             | 5            | 1.6         | 9          | 0.8       |
+| Iron     | 7 (Shov/hoe: 8) | 500             | 6            | 1.6         | 9          | 0.9       |
+| Steel    | 8               | 3000            | 6            | 0.9         | 9          | 0.7       |
+| Gold     | 12              | 350             | 4            | 1.6         | 7          | 1         |
+| Bronze   | 15              | 1000            | 6            | 1.9         | 9          | 1.1       |
+| Shakudo  | 9               | 1000            | 6            | 1.6         | 9          | 1         |
+| Diamond  | 9               | 2500            | 7            | 1.6         | 9          | 1         |
+| Electrum | 12              | 3000            | 7            | 1.9         | 9          | 1.2       |
+| Adamant  | 15              | 5000            | 8            | 1.6         | 10         | 1         |
 
 Armor values are armor/armor toughness/kb resist.
 | Material         | Armor Durability | Helmet | Chestplate | Leggings | Boots |
-|------------------|------------------|--------|------------|----------|-------|
+| ---------------- | ---------------- | ------ | ---------- | -------- | ----- |
 | Tattered Leather | 200              | 1      | 3          | 2        | 1     |
 | Sturdy Leather   | 350              | 2      | 4          | 3        | 2     |
 | Chainmail        | 300              | 2      | 6          | 5        | 2     |
@@ -144,7 +144,38 @@ The brewing system has been removed since it isn't currently possible to change 
 - Raw food cannot be eaten. They can be charred in a mud kiln if you lack other cooking options.
 - Food can be cooked normally on a campfire or oven.
 
-TODO: cooking system reference
+Notation: Lists duration of each base effect. + indicates an additional level.
+
+| Food             | Base Effects             | Raw       | Cooked    | Preserved  | Prepared Dish            | Prepared |
+| ---------------- | ------------------------ | --------- | --------- | ---------- | ------------------------ | -------- |
+| Apple            | Regen                    | -         | 0:10      | 1:00       | Apple Empanada           | 3:00     |
+| Golden Apple     | Absorption, Regen        | 2:00/0:30 | 2:00/1:00 | 2:00+/0:20 | Golden Pie               | note 1   |
+| Pumpkin          | Resistance               | -         | 0:10      | 3:00       | Pumpkin Empanada         | 8:00     |
+| Crimson Mushroom | Weakness                 | -         | 0:30      | 1:00+      | Crimson Stroganoff       | 5:00     |
+| Toadstool        | Poison                   | -         | 0:30      | 1:00+      | Toadstool Stroganoff     | 5:00     |
+| Warped Fungus    | Invisibility             | -         | 0:30      | 5:00       | Warped Stroganoff        | 10:00    |
+| Cocoa Beans      | Haste                    | -         | 0:30      | -          | Chocolate Chip Cookie    | 5:00     |
+| Pufferfish       | Conduit Power            | -         | 0:30      | -          | ?                        | ?        |
+| Kelp             | Gills                    | -         | 0:10      | -          | ?                        | ?        |
+| Glow Berry       | Aura                     | -         | 0:03      | 0:30       | Glow Berry Crumble       | 1:00     |
+| Carrot           | Night Vision             | -         | 0:10      | 5:00       | Carrot Cupcake           | 10:00    |
+| Golden Carrot    | Night Vision             | 0:30      | 1:00      | 10:00      | Gold Carrot Cupcake      | 20:00    |
+| Melon            | Fire Resistance          | -         | 0:10      | -          | Melon Sorbet             | 10:00    |
+| Tomato           | Strength                 | -         | 0:10      | 5:00       | ?                        | ?        |
+| Honey            | Speed, Cleanse Maleffect | -         | 0:30      | -          | Honied French Toast      | 3:00+    |
+| Chorus Fruit     | Levitation III           | -         | 0:03      | -          | Chorus Mochi             | note 2   |
+| Sweet Berry      | Health Boost             | -         | 0:10      | 3:00       | Sweet Berry Toast/Danish | 8:00     |
+
+Notes:
+1. Provides Absorption II for 2:00 and Comfort II for 0:10. 
+2. Provides Levitation 30 for 0:01
+
+The following ingredients have no effects on their own:
+- Potato
+- Mushroom
+- All meats
+- Bread
+- Egg
 
 ## Building
 

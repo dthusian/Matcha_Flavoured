@@ -33,6 +33,8 @@ Bug fixes:
   - Removing XP after 15s will confuse players that need to go AFK having the anvil table open, or spend some time thinking about what to name their tool.
 - Fix a bug where picking up multiple water bottles in 1 tick causes some to be lost. 
 - Fix the overridden `minecraft:day` timeline, fixing sleep issues.
+- (TODO) Fix translation key for steamed golden carrots
+- (TOOD) Fix texture for golden pie
 
 Yeets:
 - Removed eerie sounds from villages
