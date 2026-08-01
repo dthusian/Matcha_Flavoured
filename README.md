@@ -38,6 +38,8 @@ Bug fixes:
   - They have the exact same name but different effects compared to the furnace versions
   - Given that the crafting-table versions don't use translation keys and use custom model data instead of
     item model components, they seem to be older versions that weren't intended to be in the final version.
+- Fix wheat seeds not dropping from tall grass.
+  - This looks like a bug because the loot table entry that drops seeds is below the one drops short grass, and the short grass one will always be matched if the seed one is.
 - (TOOD) Fix texture for golden pie, squid ink pasta
 
 Yeets:
