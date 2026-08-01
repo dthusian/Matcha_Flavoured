@@ -22,22 +22,15 @@ Early-game progression has been changed substantially. Here's a brief guide.
 
 - Get wood
 - Craft a wooden hoe (vanilla recipe) and break grass with it to collect grass.
-- Crafting kindling
-  ![2 stick + 2 log](img1.png)
-- Either craft tinder, or find gravel and craft a firestarter with flint.
-  ![2 stick + short grass](img2a.png)
-  ![2 flint](img2b.png)
+- Crafting kindling<br/>![2 stick + 2 log](img1.png)
+- Either craft tinder, or find gravel and craft a firestarter with flint.<br/>![2 stick + short grass](img2a.png)<br/>![2 flint](img2b.png)
 - Make a campfire by placing kindling and lighting it with tinder or a firestarter.
 - Dry short grass using the campfire.
-- Craft short dry grass into tall dry grass.
-  ![2 short dry grass](img3.png)
-- Craft tall dry grass into packed mud and mud bricks.
-  ![tall dry grass + dirt](img4.png)
-- Craft a mud kiln.
-  ![tall dry grass + dirt](img5.png)
+- Craft short dry grass into tall dry grass.<br/>![2 short dry grass](img3.png)
+- Craft tall dry grass into packed mud and mud bricks.<br/>![tall dry grass + dirt](img4.png)
+- Craft a mud kiln.<br/>![tall dry grass + dirt](img5.png)
 - Use your mud kiln to smelt copper ore, or smelt cobblestone into limestone and smooth stone.
-- Use smooth stone and stone bricks to craft a blast furnace, which can smelt the remaining metals.
-  ![tall dry grass + dirt](img6.png)
+- Use smooth stone and stone bricks to craft a blast furnace, which can smelt the remaining metals.<br/>![tall dry grass + dirt](img6.png)
 
 ## Furnaces
 
@@ -172,6 +165,25 @@ Notes:
 | Prayer of Aeolus       | 7 wind charge + electrum                                              | Wind Burst 3, Anemos                                     |
 | Elegy of Hyacinthus    | 1 hyacinth + 4 wind charge + 3 feather                                | Zephyr                                                   |
 
+## Divine Fragments
+
+Divine fragments are valuable items used in many end-game recipes in this mod.
+Here's a list of all sources of divine fragments:
+- Breaking down a divine favour (9)
+- Breaking a spawner (1)
+- Killing Piglin Brutes (1)
+- Killing Evokers (1)
+- Killing Elder Guardians (1-3)
+- Ancient City chests (1-3)
+- Stronghold corridor chests (1)
+
+Divine fragments can be used to craft:
+- Crystal heart
+- Some blessings
+- Bedrock buster
+- Adamant ingots
+- Eye of ender
+
 ## Food and Cooking
 
 The brewing system has been removed since it isn't currently possible to change brewing recipes with datapacks. Instead, potion effects can be obtained from the cooking system.
@@ -242,8 +254,20 @@ Top-tier dishes:
 - All villages now spawn as abandoned villages with no villagers present.
   - (Klei) Villages play creepy sounds wnen the player is inside of them.
 - Villagers have had their trades completely overhauled.
+- Emeralds have been replaced with (Klei) obols (dthusian) gold coins.
+- (dthusian) Silver coins and copper coins also exist, at a conversion ratio of 24:1.
+- Obols can be obtained by:
+  - Selling fish to the fisherman
+  - Selling gemstones to the smith
+  - Killing pillagers
+  - Structure chests
+  - Fishing up treasure
 
 TODO: tables documenting villager trades
+
+## Passive Mobs
+
+- Turtles now drop turtle shells instead of turtle scutes.
 
 ## Hostile Mobs
 

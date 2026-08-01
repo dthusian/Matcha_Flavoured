@@ -51,3 +51,4 @@ Wishlist:
 - Add back vanilla village generation but without the villagers
 - Add more gemstones
 - Move everything out of the `minecraft` namespace if not needed
+- Make grindstone leave intrinsics intact
