@@ -1,12 +1,13 @@
 # dthusian's Matcha Flavoured Fork Guide
 
-Since this datapack is a derivative of Klei_Wright's Matcha Flavoured datapack, this documentation applies to both versions. Any changes specific to dthusian's fork will be labelled (dthusian) and changes specific to the official Klei's Matcha Flavoure will be labelled (Klei).
+Since this datapack is a derivative of Klei_Wright's Matcha Flavoured datapack, this documentation applies to both versions. Any changes specific to dthusian's fork will be labelled (dthusian) and changes specific to the official Klei's Matcha Flavoured will be labelled (Klei).
 
-This guide will have spoilers. If you don't like that, you can try using the in-game advancements page. This has a basic progression tree that you can use as a guide.
+This guide will have spoilers. If you don't like that, you can try using the in-game advancements page, which has a basic progression tree that you can use as a guide.
 
 ## General
 
 - (Klei) The day is 3x longer, now 72000 ticks (60 minutes) instead of 24000 (20 minutes).
+- (Klei) It is possible to sleep at any time to advance time.
 - Hunger has been removed. Sprinting and eating are always possible. Food now restores health instead of hunger.
 - Crystal hearts have been added. When consumed, they increase maximum health by 1 heart, up to a maximum of 30 hearts total.
   - (Klei) Crystal hearts are automatically consumed when obtained.
