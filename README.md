@@ -33,8 +33,12 @@ Bug fixes:
   - Removing XP after 15s will confuse players that need to go AFK having the anvil table open, or spend some time thinking about what to name their tool.
 - Fix a bug where picking up multiple water bottles in 1 tick causes some to be lost. 
 - Fix the overridden `minecraft:day` timeline, fixing sleep issues.
+- Fix translation keys for certain food items
+- Remove crafting-table recipes for Paneer Makhani and Green Curry
+  - They have the exact same name but different effects compared to the furnace versions
+  - Given that the crafting-table versions don't use translation keys and use custom model data instead of
+    item model components, they seem to be older versions that weren't intended to be in the final version.
 - (TOOD) Fix texture for golden pie, squid ink pasta
-- (TODO) Why are there two versions of green curry and paneer makhani
 
 Yeets:
 - Removed eerie sounds from villages
