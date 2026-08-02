@@ -26,11 +26,10 @@ Early-game progression has been changed substantially. Here's a brief guide.
 - Either craft tinder, or find gravel and craft a firestarter with flint.<br/>![2 stick + short grass](img2a.png)<br/>![2 flint](img2b.png)
 - Make a campfire by placing kindling and lighting it with tinder or a firestarter.
 - Dry short grass using the campfire.
-- Craft short dry grass into tall dry grass.<br/>![2 short dry grass](img3.png)
-- Craft tall dry grass into packed mud and mud bricks.<br/>![tall dry grass + dirt](img4.png)
-- Craft a mud kiln.<br/>![tall dry grass + dirt](img5.png)
+- Craft short dry grass into packed mud and mud bricks.<br/>![short dry grass + dirt](img4.png)
+- Craft a mud kiln.<br/>![2 packed mud + 4 mud bricks + kindling](img5.png)
 - Use your mud kiln to smelt copper ore, or smelt cobblestone into limestone and smooth stone.
-- Use smooth stone and stone bricks to craft a blast furnace, which can smelt the remaining metals.<br/>![tall dry grass + dirt](img6.png)
+- Use smooth stone and stone bricks to craft a blast furnace, which can smelt the remaining metals.<br/>![2 smooth stone + 4 stone bricks + kindling](img6.png)
 
 ## Furnaces
 
@@ -90,11 +89,11 @@ Recipes have also been added to alloy recycling of tools. Iron, copper, gold, an
 | Bronze   | Copper     | 7 copper + 1 silver + 1 gold |
 | Shakudo  | Copper     | 7 copper + 3 gold            |
 | Electrum | Diamond    | 4 silver + 4 gold            |
-| Steel    | Iron       | 1 iron (note 1)              |
+| Steel    | Iron       | 4 iron + coal block (note 1) |
 | Adamant  | Diamond    | 4 adamant scrap + 4 gold     |
 
 Notes:
-1. Steel is made by blasting iron. It takes 160 seconds to perform this recipe, instead of the normal 10 seconds. This is equivalent to the duration of 2 pieces of coal.
+1. This produces 4 carbon-rich iron, and each carbon-rich iron can be blasted to get steel.
 
 ### Stats Reference
 
