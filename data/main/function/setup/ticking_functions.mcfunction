@@ -2,7 +2,6 @@ function main:mechanic/manage_hunger
 function main:mechanic/water_bottle_stacking
 function main:mechanic/warding_stone/warding_stone
 function main:mechanic/spawn_mechanic/ticking
-function main:mechanic/anvil_xp/remove_xp
 function main:mechanic/heart_container/detect_death
 function main:environmental/nether_water
 function main:mechanic/cake_eaten

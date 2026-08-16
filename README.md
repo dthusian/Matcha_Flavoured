@@ -3,9 +3,6 @@
 Derivative of Klei_Wright's [Matcha Flavoured](https://modrinth.com/datapack/matcha-flavoured) Datapack, with some fixes and changes relevant for my Minecraft worlds.
 
 Changes:
-- Make alloy names consistent, and rename some of them
-  - Hepatizon → Bronze
-  - The only gameplay issue I see with this is that the advancements are not clear that Hepatizon is Bronze and Shakudo is Palatinate. So I made the terminology consistent to ensure it is clear.
 - Make crystal hearts manually consumed instead of consumed on pickup
   - On a multiplayer server, it would be nice to be able to save a crystal heart for a friend instead of being forced to eat it immediately.
 - Make crystal hearts drop on death
@@ -23,8 +20,8 @@ Changes:
   - 24 silver coins = 1 gold coin
   - 24 copper coins = 1 silver coin
   - Fishing trades have been updated, mostly in line with their original values
-    - 1-star fish: 1 silver
-    - 2-star fish: 2 silver
+    - 1-star fish: 2 silver
+    - 2-star fish: 3 silver
     - 3-star fish: 6 silver
     - 4-star fish: 1 gold
   - Weaponsmith renamed to exchanger and has trades to convert between the coins.
