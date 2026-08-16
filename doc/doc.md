@@ -1,7 +1,5 @@
 # dthusian's Matcha Flavoured Fork Guide
 
-Warning: This guide is outdated for v1.12! I wil update this soon.
-
 Since this datapack is a derivative of Klei_Wright's Matcha Flavoured datapack, this documentation applies to both versions. Any changes specific to dthusian's fork will be labelled (dthusian) and changes specific to the official Klei's Matcha Flavoured will be labelled (Klei).
 
 This guide will have spoilers. If you don't like that, you can try using the in-game advancements page, which has a basic progression tree that you can use as a guide.
@@ -11,11 +9,6 @@ This guide will have spoilers. If you don't like that, you can try using the in-
 - (Klei) The day is 3x longer, now 72000 ticks (60 minutes) instead of 24000 (20 minutes).
 - (Klei) It is possible to sleep at any time to advance time.
 - Hunger has been removed. Sprinting and eating are always possible. Food now restores health instead of hunger.
-- Crystal hearts have been added. When consumed, they increase maximum health by 1 heart, up to a maximum of 30 hearts total.
-  - (Klei) Crystal hearts are automatically consumed when obtained.
-  - (dthusian) Crystal hearts may be consumed by right clicking with them.
-- On death, when a player has a crystal heart, their maximum health decreases by 1 heart, down to a minimum of 10 hearts.
-  - (dthusian) A crystal heart item is dropped at the location of death. This item is invulnerable and glowing, so it should not be difficult to find.
 - Entering water in cold biomes inflicts a freeze-like effect.
 
 ## Early-game
@@ -64,7 +57,6 @@ Recipes have also been added to alloy recycling of tools. Iron, copper, gold, an
 - New alloys have been added. Like netherite, these are applied using the smithing table and an upgrade template.
   - In the material table, composition and applied only apply to alloys.
 - Certain materials have "intrinsics" which are basically enchantments or extra effects applied to items crafted out of the material.
-- (Klei) Bronze ingots are instead called Hepatizon, and Shakudo tools are instead called Palatinate.
 - New enchantments
   - Anemos (sword, mace): Attacks shoot wind charges
   - Bloodrage (axe): When held and below 5 hearts, grants strength 1 and resistance 1
@@ -86,31 +78,31 @@ Recipes have also been added to alloy recycling of tools. Iron, copper, gold, an
 
 ### Alloy Reference
 
-| Material | Applied on | Composition                  |
-| -------- | ---------- | ---------------------------- |
-| Bronze   | Copper     | 7 copper + 1 silver + 1 gold |
-| Shakudo  | Copper     | 7 copper + 3 gold            |
-| Electrum | Diamond    | 4 silver + 4 gold            |
-| Steel    | Iron       | 4 iron + coal block (note 1) |
-| Adamant  | Diamond    | 4 adamant scrap + 4 gold     |
+| Material  | Applied on | Composition                  |
+| --------- | ---------- | ---------------------------- |
+| Hepatizon | Copper     | 7 copper + 1 silver + 1 gold |
+| Shakudo   | Copper     | 7 copper + 3 gold            |
+| Electrum  | Diamond    | 4 silver + 4 gold            |
+| Steel     | Iron       | 4 iron + coal block (note 1) |
+| Adamant   | Diamond    | 4 adamant scrap + 4 gold     |
 
 Notes:
 1. This produces 4 carbon-rich iron, and each carbon-rich iron can be blasted to get steel.
 
 ### Stats Reference
 
-| Material | Tool Speed      | Tool Durability | Sword Damage | Sword Speed | Axe Damage | Axe Speed |
-| -------- | --------------- | --------------- | ------------ | ----------- | ---------- | --------- |
-| Wood     | 2 (Pick: 3)     | 200 (Pick: 600) | 4            | 1.6         | 7          | 0.8       |
-| Copper   | 6               | 350             | 5            | 1.6         | 9          | 0.8       |
-| Iron     | 7 (Shov/hoe: 8) | 500             | 6            | 1.6         | 9          | 0.9       |
-| Steel    | 8               | 3000            | 6            | 0.9         | 9          | 0.7       |
-| Gold     | 12              | 350             | 4            | 1.6         | 7          | 1         |
-| Bronze   | 15              | 1000            | 6            | 1.9         | 9          | 1.1       |
-| Shakudo  | 9               | 1000            | 6            | 1.6         | 9          | 1         |
-| Diamond  | 9               | 2500            | 7            | 1.6         | 9          | 1         |
-| Electrum | 12              | 3000            | 7            | 1.9         | 9          | 1.2       |
-| Adamant  | 15              | 5000            | 8            | 1.6         | 10         | 1         |
+| Material  | Tool Speed      | Tool Durability | Sword Damage | Sword Speed | Axe Damage | Axe Speed |
+| --------- | --------------- | --------------- | ------------ | ----------- | ---------- | --------- |
+| Wood      | 2 (Pick: 3)     | 200             | 4            | 1.6         | 7          | 0.8       |
+| Copper    | 6               | 350             | 5            | 1.6         | 9          | 0.8       |
+| Iron      | 7 (Shov/hoe: 8) | 500             | 6            | 1.6         | 9          | 0.9       |
+| Steel     | 8               | 3000            | 6            | 0.9         | 9          | 0.7       |
+| Gold      | 12              | 350             | 4            | 1.6         | 7          | 1         |
+| Hepatizon | 15              | 1000            | 6            | 1.9         | 9          | 1.1       |
+| Shakudo   | 9               | 1000            | 6            | 1.6         | 9          | 1         |
+| Diamond   | 9               | 2500            | 7            | 1.6         | 9          | 1         |
+| Electrum  | 12              | 3000            | 7            | 1.9         | 9          | 1.2       |
+| Adamant   | 15              | 5000            | 8            | 1.6         | 10         | 1         |
 
 Armor values are armor/armor toughness/kb resist.
 | Material         | Armor Durability | Helmet | Chestplate | Leggings | Boots |
@@ -122,7 +114,7 @@ Armor values are armor/armor toughness/kb resist.
 | Iron             | 350              | 2      | 4          | 3        | 1     |
 | Steel            | 1000             | 2/1/1  | 6/2/2      | 5/1/1    | 2/1/1 |
 | Gold             | 200              | 2      | 5          | 3        | 2     |
-| Bronze           | 500              | 2      | 6          | 5        | 2     |
+| Hepatizon        | 500              | 2      | 6          | 5        | 2     |
 | Shakudo          | 500              | 2      | 6          | 5        | 2     |
 | Diamond          | 800              | 3/2    | 8/2        | 6/2      | 3/2   |
 | Electrum         | 1000             | 3/2    | 8/2        | 6/2      | 3/2   |
@@ -142,8 +134,8 @@ For armor, if stats differ between different pieces, the stat is listed as helme
 | Iron             | None               | None                       | None              | None                     |
 | Steel            | Blast Prot 2/4/3/2 | None                       | Knockback 2       | Knockback 1, Blocking (note 1) |
 | Gold             | Fire Prot 2/3/2/2  | Fortune 1                  | Fortune 1, Looting 1 | Looting 1             |
-| Bronze           | +0.008 speed       | +0.005 speed               | +0.005 speed      | +0.01 speed, Riposte 1   |
-| Shakudo          | Cleansing          | Silk Touch                 | Silk Touch        | Sweep 1, Sanguine        |
+| Hepatizon        | +0.01 speed        | +0.005 speed               | +0.0055 speed     | +0.01 speed, Riposte 1   |
+| Shakudo          | Cleansing, Regen (note 3) | Silk Touch          | Silk Touch        | Sweep 1, Sanguine        |
 | Diamond          | None               | None                       | None              | None                     |
 | Electrum         | Apotropiac         | Fortune 3, Lesser Warding  | Smite 2, Fortune 2, Looting 2, Warding | Smite 2, Looting 2, Warding |
 | Adamant (note 2) | Prot 1, Unbr 2, +2 Hearts | Unbr 2, +2 Hearts   | Unbr 2, +2 Hearts | Unbr 2, +2 Hearts        |
@@ -153,7 +145,8 @@ Notes:
 2. Adamant max hp works like this:
   - Your total level of divinity (called internally) is determined by how many adamant pieces of armor you are wearing and whether or not you are holding a piece of divine armor
   - For each level of divinity, you obtain 2 bonus hearts.
-  - Bonus hearts behave like hearts from absorption and cannot be restored with food or effects. Instead, they are automatically restored on a global 30s timer, or 15s if you have level 5 (full adamant armor and holding an adamant tool). 
+  - Bonus hearts behave like hearts from absorption and cannot be restored with food or effects. Instead, they are automatically restored on a global 30s timer, or 20s if you have level 5 (full adamant armor and holding an adamant tool).
+3. Shakudo regen has some details to it, TODO
 
 ### Blessings Reference
 
@@ -162,7 +155,7 @@ Notes:
 | Name                   | Recipe                                                                | Enchantments                                             |
 | ---------------------- | --------------------------------------------------------------------- | -------------------------------------------------------- |
 | Elegy of Arachnae      | 4 spider eye                                                          | Bane of Arthropods 5                                     |
-| Prayer of The God-King | 3 silver + 4 estus ash + iron ingot                                   | Channeling, Smite 3                                      |
+| Prayer of The God-King | 3 silver + 4 estus ash + gold ingot                                   | Channeling, Smite 3                                      |
 | Prayer of Talos        | 7 block of iron + steel                                               | Density 2, Knockback 2, Punch 2                          |
 | Prayer of Yamn         | 4 nautilus shell                                                      | Riptide 1, Respiration 2, Aqua Affinity, Depth Strider 2 |
 | Prayer of Daedalus     | diamond pickaxe + diamond axe + diamond + 4 estus ash + divine favour | Efficiency 3, Unbreaking 3                               |
@@ -176,25 +169,28 @@ Notes:
 | Prayer of Apollo       | disc fragment + 4 spectral arrow + 3 gold ingot                       | Impaling 3, Piercing 2                                   |
 | Prayer of Artemis      | silver + 4 spectral arrow + 3 porkchop                                | Power 2, Multishot                                       |
 | Prayer of Will         | 4 ender pearl                                                         | Reach 1                                                  |
-| Prayer of Eros         | 4 shakudo + 4 estus ash                                               | Silk Touch                                               |
+| Prayer of Eros         | 1 shakudo + 3 estus ash + 4 arrow                                     | Silk Touch                                               |
 | Prayer of Cronus       | 3 echo shard + 4 sculk + iron hoe                                     | Soul Speed 2, Swift Sneak 2                              |
 | Prayer of St. Clement  | 2 (Klei) obol (dthusian) gold coin + 2 wool + leather boots           | Traversal 3                                              |
 | Prayer of Prometheus   | 4 estus ash + divine fragment + 3 diamond                             | Unbreaking 2                                             |
 | Prayer of Man          | 4 nazar + silver + 3 lapis lazuli                                     | Smite 2, Warding                                         |
-| Prayer of Aeolus       | 7 wind charge + electrum                                              | Wind Burst 3, Anemos                                     |
+| Prayer of Aeolus       | 7 wind charge + gold block                                            | Wind Burst 1, Anemos                                     |
 | Elegy of Hyacinthus    | 1 hyacinth + 4 wind charge + 3 feather                                | Zephyr                                                   |
 
-## Divine Fragments
+## Divine Fragments & Crystal Hearts
 
 Divine fragments are valuable items used in many end-game recipes in this mod.
+
 Here's a list of all sources of divine fragments:
 - Breaking down a divine favour (9)
 - Breaking a spawner (1)
 - Killing Piglin Brutes (1)
 - Killing Evokers (1)
 - Killing Elder Guardians (1-3)
-- Ancient City chests (1-3)
-- Stronghold corridor chests (1)
+- Ancient City chests (0-3)
+- Abbey Mausoleum chests (0-1)
+- Stronghold corridor chests (0-1)
+- Ominous Vaults (0-1)
 
 Divine fragments can be used to craft:
 - Crystal heart
@@ -202,6 +198,23 @@ Divine fragments can be used to craft:
 - Bedrock buster
 - Adamant ingots
 - Eye of ender
+
+Crystal hearts increase your maximum HP by 1 heart, up to maximum of 30. They are (Klei) lost on death (dthusian) dropped on death.
+Crystal hearts are (Klei) consumed automatically on pickup (dthusian) manually consumed. 
+
+You can also get crystal hearts from the following:
+- Mineshaft chests (0-1)
+- Ancient City chests (0-1)
+- Dungeon chests (0-1)
+- Stronghold corridor chests (0-1)
+- Abbey Barracks chests (0-1)
+- Abbey Tower chests (0-1)
+- Abbey Mausoleum chests (0-1)
+- Ominous Trial Vaults (0-1)
+- Trial Vaults (0-1)
+- Fishing (0-1)
+- Trading clay statues to cartographer villagers (1)
+- Trading "Divine Comedy" and "Paradise Lost" books to librarian villagers (1)
 
 ## Food and Cooking
 
@@ -214,7 +227,7 @@ Notation: Lists duration of each base effect. + indicates an additional level.
 | Food             | Base Effects             | Raw       | Cooked    | Preserved              |            | Prepared Dish         |        | Prepared Dish 2    |             |
 | ---------------- | ------------------------ | --------- | --------- | ---------------------- | ---------- | --------------------- | ------ | ------------------ | ----------- |
 | Apple            | Regen                    | -         | 0:10      | Canned Apples          | 1:00       | Apple Empanada        | 3:00   |                    |             |
-| Golden Apple     | Absorption, Regen        | 2:00/0:30 | 2:00/1:00 | Canned Golden Apples   | 2:00+/0:20 | Golden Pie            | note 1 | Gilded Empanada    | 4:00+/0:45+ |
+| Golden Apple     | Absorption, Regen        | 2:00/0:30 | 2:00/1:00 | Canned Golden Apples   | 2:00+/0:20 | Gilded Empanada       | 4:00+/0:45+ |               |             |
 | Pumpkin          | Resistance               | -         | 0:10      | Pumpkin Jam            | 3:00       | Pumpkin Empanada      | 8:00   |                    |             |
 | Crimson Mushroom | Weakness                 | -         | 0:30      | Pickled Crimson Fungus | 1:00+      | Crimson Stroganoff    | 5:00   |                    |             |
 | Toadstool        | Poison                   | -         | 0:30      | Pickled Toadstools     | 1:00+      | Toadstool Stroganoff  | 5:00   |                    |             |
@@ -247,13 +260,17 @@ Misc dishes:
 - French Toast
 - Gnocchi
 - Latke
-- Rabbit stew
+- Rabbit Stew
 - Puerquito (Regen 0:30)
 - Pupusa
 - Ramen
-- Squid ink pasta
 - Stroganoff
-- Stuffed mushrooms
+- Cheese Pizza (Strength?)
+- Mushroom Pizza (Strength?)
+- Meat Pizza (Strength?)
+- Warped Pizza (Invis, Strength)
+- Kontomire Stew (Strength, Regen)
+- Pad Thai (Night Vision, Regen)
 
 Top-tier dishes:
 - Tonkotsu ramen
@@ -275,7 +292,7 @@ Top-tier dishes:
 - Villagers have had their trades completely overhauled.
 - Emeralds have been replaced with (Klei) obols (dthusian) gold coins.
 - (dthusian) Silver coins and copper coins also exist, at a conversion ratio of 24:1.
-- Obols can be obtained by:
+- (TODO outdated) Obols can be obtained by:
   - Selling fish to the fisherman
   - Selling gemstones to the smith
   - Killing pillagers
@@ -283,6 +300,10 @@ Top-tier dishes:
   - Fishing up treasure
 
 TODO: tables documenting villager trades
+
+## Structures
+
+- A new strucrure, the Abbey, has been added.
 
 ## Passive Mobs
 
