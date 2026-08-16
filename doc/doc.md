@@ -1,5 +1,7 @@
 # dthusian's Matcha Flavoured Fork Guide
 
+Warning: This guide is outdated for v1.12! I wil update this soon.
+
 Since this datapack is a derivative of Klei_Wright's Matcha Flavoured datapack, this documentation applies to both versions. Any changes specific to dthusian's fork will be labelled (dthusian) and changes specific to the official Klei's Matcha Flavoured will be labelled (Klei).
 
 This guide will have spoilers. If you don't like that, you can try using the in-game advancements page, which has a basic progression tree that you can use as a guide.

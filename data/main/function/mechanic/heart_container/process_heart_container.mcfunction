@@ -1,0 +1,2 @@
+execute if entity @s[scores={Hearts=60..}] run function main:mechanic/heart_container/refund_heart_container
+execute if entity @s[scores={Hearts=..58}] run function main:mechanic/heart_container/use_heart_container
