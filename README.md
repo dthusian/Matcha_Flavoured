@@ -38,6 +38,7 @@ Bug fixes:
     item model components, they seem to be older versions that weren't intended to be in the final version.
 - Fix wheat seeds not dropping from tall grass.
   - This looks like a bug because the loot table entry that drops seeds is below the one drops short grass, and the short grass one will always be matched if the seed one is.
+- Fix the top side of deepslate coal ore being identical to deepslate 
 
 Yeets:
 - Removed eerie sounds from villages
@@ -45,6 +46,8 @@ Yeets:
 - Removed the day-length extender. Day is back to being 24000 ticks.
 - Instead of fast zombies, slow and reinforcement-spawning zombies
   - I didn't like the faster zombies. Instead, I changed zombies to have some knockback resistance, and kept only some of their speed boost.
+- Revert texture changes for polished deepslate, deepslate bricks, smooth quartz, and smooth red sandstone
+  - These are just recolors of stone or stone brick textures and I think that's much less interesting than the vanilla textures.
 
 Wishlist:
 - Add back vanilla village generation but without the villagers
