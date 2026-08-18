@@ -1,2 +1,3 @@
 advancement revoke @s only main:mechanics/heart_container_obtained
-loot give @s loot minecraft:kleis_items/crystal_heart
+tag @s add NeedCrystalHeartRefund
+schedule function main:mechanic/heart_container/refund_heart_container_delayed 5t replace
