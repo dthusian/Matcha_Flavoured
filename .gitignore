@@ -1,2 +1,3 @@
 deploy.sh
-matcha.zip
+deploy.ps1
+*[Mm]atcha*.zip
