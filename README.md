@@ -48,9 +48,10 @@ Yeets:
   - I didn't like the faster zombies. Instead, I changed zombies to have some knockback resistance, and kept only some of their speed boost.
 - Revert texture changes for polished deepslate, deepslate bricks, smooth quartz, and smooth red sandstone
   - These are just recolors of stone or stone brick textures and I think that's much less interesting than the vanilla textures.
+- Yeet nether brick textures
+  - Against the black netherrack, black nether bricks make nether fortresses very hard to spot
 
 Wishlist:
-- Add back vanilla village generation but without the villagers
 - Add more gemstones
 - Move everything out of the `minecraft` namespace if not needed
 - Make grindstone leave intrinsics intact
