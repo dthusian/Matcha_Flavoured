@@ -16,7 +16,7 @@
 			"minecraft:stored_enchantments": {
 				"minecraft:luck_of_the_sea": 3,
 				"minecraft:lure": 3,
-				"minecraft:loyalty": 1
+				"minecraft:loyalty": 3
 			},
 			"minecraft:item_name": {
 				"translate": "item.kleispack.blessing"

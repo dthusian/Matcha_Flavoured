@@ -25,6 +25,13 @@ Changes:
     - 3-star fish: 6 silver
     - 4-star fish: 1 gold
   - Weaponsmith renamed to exchanger and has trades to convert between the coins.
+- Some enchanted book recipes have been made cheaper
+  - Prayer of the Light (Channeling, Smite 4) now gives Smite 5
+  - Prayer of Yamn (Riptide 1, Respiration 2, Aqua Affinity, Depth Stride 2) is now Riptide 3, Respiration 3, Aqua Affinity, Depth Stride 3
+  - Prayer of Daedalus (Eff 3, Unbreaking 3) now costs 3 divine fragments and grants Efficiency 4
+  - Elegy of Icarus (FF 2) now gives FF 3
+  - Prayer of Glacus (LotS 3, Lure 3, Loyalty 1) now gives Loyalty 3
+  - Prayer of Artemis (Power 2, Multishot) now gives Power 4
 
 Bug fixes:
 - Delegate the adding-back-XP part of the anvil changes to a different Fabric mod, as the current implementation is scuffed.

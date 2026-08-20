@@ -2,12 +2,12 @@
 	"type": "minecraft:crafting_shaped",
 	"category": "misc",
 	"pattern": [
-		"ESE",
+		"SSS",
 		"pBd",
 		"EDE"
 	],
 	"key": {
-		"S": "minecraft:nether_star",
+		"S": "minecraft:turtle_scute",
 		"B": "minecraft:enchanted_book",
 		"E": "minecraft:glowstone_dust",
 		"D": "minecraft:diamond",
@@ -17,7 +17,7 @@
 	"result": {
 		"components": {
 			"minecraft:stored_enchantments": {
-				"minecraft:efficiency": 3,
+				"minecraft:efficiency": 4,
 				"minecraft:unbreaking": 3
 			},
 			"minecraft:item_name": {

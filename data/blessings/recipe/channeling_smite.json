@@ -15,7 +15,7 @@
 	"result": {
 		"components": {
 			"minecraft:stored_enchantments": {
-				"minecraft:smite": 4,
+				"minecraft:smite": 5,
 				"minecraft:channeling": 1
 			},
 			"minecraft:item_name": {

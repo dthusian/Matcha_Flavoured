@@ -13,10 +13,10 @@
 	"result": {
 		"components": {
 			"minecraft:stored_enchantments": {
-				"minecraft:depth_strider": 2,
-				"minecraft:riptide": 1,
+				"minecraft:depth_strider": 3,
+				"minecraft:riptide": 3,
 				"minecraft:aqua_affinity": 1,
-				"minecraft:respiration": 2
+				"minecraft:respiration": 3
 			},
 			"minecraft:item_name": {
 				"translate": "item.kleispack.blessing"
