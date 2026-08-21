@@ -11,4 +11,4 @@ execute if entity @s[predicate=main:armour_enchants/divinity_mainhand] run score
 execute unless stopwatch divinity30s ..29.9 run execute if score @s divinity matches 1 run effect give @s minecraft:absorption 30 0 true
 execute unless stopwatch divinity30s ..29.9 run execute if score @s divinity matches 2 run effect give @s minecraft:absorption 30 1 true
 execute unless stopwatch divinity30s ..29.9 run execute if score @s divinity matches 3 run effect give @s minecraft:absorption 30 2 true
-execute unless stopwatch divinity20s ..19.9 run execute if score @s divinity matches 4 run effect give @s minecraft:absorption 20 4 true
+execute unless stopwatch divinity20s ..19.9 run execute if score @s divinity matches 4.. run effect give @s minecraft:absorption 20 4 true
